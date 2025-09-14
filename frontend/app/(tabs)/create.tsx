@@ -23,7 +23,7 @@ export default function Create() {
 				imageId: parseInt(imageId, 10),
 			});
 			Alert.alert("Item created successfully");
-			router.back(); // go back to home page
+			router.back();
 		} catch (error) {
 			Alert.alert("Error creating item", (error as Error).message);
 		}
@@ -65,7 +65,6 @@ export default function Create() {
 	);
 }
 
-// Styled components
 const Container = styled(View)({
 	flex: 1,
 	padding: 20,
