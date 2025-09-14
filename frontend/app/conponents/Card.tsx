@@ -35,7 +35,7 @@ const CardContainer = styled.View({
 	shadowOffset: { width: 0, height: 2 },
 	shadowOpacity: 0.1,
 	shadowRadius: 6,
-	elevation: 3, // Android shadow
+	elevation: 3,
 });
 
 const Title = styled(Text)({
