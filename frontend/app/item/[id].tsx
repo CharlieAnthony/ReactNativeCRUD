@@ -70,7 +70,6 @@ export default function ItemDetail() {
 	);
 }
 
-// Styled components
 const ScrollViewContainer = styled(ScrollView)({
 	flex: 1,
 	backgroundColor: "#fff",
